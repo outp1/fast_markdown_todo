@@ -1,0 +1,1 @@
+bindsym $mod+Shift+Insert exec --no-startup-id xclip -o | /path/to/add_checkbox.sh -P /path/to/markdown/file.md "Line from Clipboard"
