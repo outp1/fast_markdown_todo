@@ -36,7 +36,7 @@ add_checkbox_line() {
 }
 
 # Initialize variables with default values
-file="/home/outp/Sync/MarkdownBase/mdar/Base/Общий TODO. (РТК ИТ).md"
+file="/home/user/MarkdownBase/TODO.md"
 header="Fast TODO"
 
 # Parse command-line options
