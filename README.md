@@ -1,11 +1,11 @@
-# Markdown Checkbox Line Adder
+# Quick TODO entries in Markdown
 
 This shell script allows you to add a line with a checkbox to a Markdown file. The line entry will be placed under a specified second-level Markdown header or at the end of the file if the header is not found.
 
 ## Usage
 
 ```
-./add_checkbox.sh [-P file] [-h header] line
+./todo.sh [-P file] [-h header] line
 ```
 
 ## Arguments
@@ -18,12 +18,12 @@ This shell script allows you to add a line with a checkbox to a Markdown file. T
 
 1. Add a line entry under the default second-level header to a Markdown file:
    ```
-   ./add_checkbox.sh "Your line with a checkbox"
+   ./todo.sh "Your line with a checkbox"
    ```
 
 2. Add a line entry under a specified second-level header to a Markdown file:
    ```
-   ./add_checkbox.sh -P /path/to/markdown/file.md -h "Your Header" "Your line with a checkbox"
+   ./todo.sh -P /path/to/markdown/file.md -h "Your Header" "Your line with a checkbox"
    ```
 
 ## Notes
