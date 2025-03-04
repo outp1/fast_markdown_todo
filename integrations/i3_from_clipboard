@@ -1,1 +1,2 @@
-bindsym $mod+Shift+Insert exec --no-startup-id xclip -o | /path/to/add_checkbox.sh -P /path/to/markdown/file.md "Line from Clipboard"
+set $fast_todo_file "/home/user/notes/some_notes_file.sh"
+bindsym $mod+Shift+T exec --no-startup-id /path/to/todo.sh -P $fast_todo_file -h "Header" "$(xclip -o -selection clipboard)"
